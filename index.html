@@ -2,24 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <nav class ="navbar navbar-primary d-flex justify-content-end">
+    <nav class ="navbar d-flex justify-content-end" style="background-color: #333333;">
         <div class ="row">
             <div class = "m-3">
-                <a href = "portfolio.html">Projects</a>
+                <a href = "index.html">Projects</a>
             </div>
             <div class = "m-3">
-                <a href = "portfolio.html">About me</a>
+                <a class="text-light" href = "aboutMe.html">About me</a>
             </div>
-            <div class = "m-3">
-                <a href = "portfolio.html">Contacts</a>
-            </div>        
+ 
         </div>
     </nav>
+    <div class="text-center">
+        <h1>Projects</h1>
+    </div>
+    <div class ="row d-flex justify-content-center">
+        <div class="col-3 card m-3 text-center border-lg card-style">
+            <h4 class="mt-2">Movie Search App</h4>
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Overview: </strong></p>
+                <ul class="text-left">
+                    <li>A dynamic and user-friendly movie search app leveraging MovieDB API to
+                        fetch real-time movie data.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Tech Stack: </strong></p>
+                <ul class="text-left">
+                    <li>
+                        React, JavaScript(ES6), Bootstrap, RESTful API, HTML/CSS
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
+        <div class="col-3 card m-3 text-center card-style">
+            <h4 class="mt-2">Budget Tracker App</h4>
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Overview: </strong></p>
+                <ul class="text-left">
+                    <li>Designed a financial tool for income and expense tracking to enable real-time
+                        display of balance, income, and expenses
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Tech Stack: </strong></p>
+                <ul class="text-left">
+                    <li>
+                        React, JavaScript (ES6), Bootstrap, HTML/CSS
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-3 card m-3 text-center card-style">
+            <h4 class="mt-2">Budget Tracker App</h4>
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Overview: </strong></p>
+                <ul class="text-left">
+                    <li>Designed an affordable water safety device for small-scale farming and fish-keeping
+                        by integrating turbidity, pH, and temperature sensors with Arduino and ESP32.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <p class="d-flex justify-content-start mb-0"><strong>Tech Stack: </strong></p>
+                <ul class="text-left">
+                    <li>
+                        Arduino, C/C++, ESP32 LILYTTGO, AWS
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        
+    </div>
 
 </body>
 </html>

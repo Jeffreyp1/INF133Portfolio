@@ -39,25 +39,6 @@
 body{
     background-color: #FAFAFA!important;
     font-family: 'Oswald', sans-serif !important;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-}
-.social-media{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 16.7%;
-    max-width: 16.7%;
-    width: 100%;
-    height: 50px;
-}
 
 
-
-.social-media-images{
-    max-width: 100%;
-    height: 100%;
-    object-fit:contain;
 }
